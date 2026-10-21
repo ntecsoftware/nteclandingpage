@@ -1,0 +1,38 @@
+{
+  "package.json": {
+    "mtime": 1788357379.4117393,
+    "seen": 1792583310.3919177,
+    "ast_hash": "da01a5d42c546c1a5c740aabfb0cd00f",
+    "semantic_hash": "da01a5d42c546c1a5c740aabfb0cd00f"
+  },
+  "src/App.tsx": {
+    "mtime": 1792583294.1792545,
+    "seen": 1792583310.3919222,
+    "ast_hash": "1179e9c0bb20b1b1367d842602a6e048",
+    "semantic_hash": "1179e9c0bb20b1b1367d842602a6e048"
+  },
+  "src/main.tsx": {
+    "mtime": 1788357379.3956676,
+    "seen": 1792583310.3919241,
+    "ast_hash": "36bb799e8985449a08ef5fe10a99cd80",
+    "semantic_hash": "36bb799e8985449a08ef5fe10a99cd80"
+  },
+  "src/vite-env.d.ts": {
+    "mtime": 1788357379.4017167,
+    "seen": 1792583310.3919253,
+    "ast_hash": "0352474ba2918efe13895edbc3780d94",
+    "semantic_hash": "0352474ba2918efe13895edbc3780d94"
+  },
+  "tsconfig.json": {
+    "mtime": 1788357379.4270377,
+    "seen": 1792583310.3919263,
+    "ast_hash": "a62860596d03e105760bdd29663d551b",
+    "semantic_hash": "a62860596d03e105760bdd29663d551b"
+  },
+  "vite.config.ts": {
+    "mtime": 1788357379.4383116,
+    "seen": 1792583310.3919272,
+    "ast_hash": "e3268c2126aa21e60c5e6543f3390d6b",
+    "semantic_hash": "e3268c2126aa21e60c5e6543f3390d6b"
+  }
+}
