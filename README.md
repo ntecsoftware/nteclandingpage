@@ -1,5 +1,19 @@
 # NtecSoftware Landing Page
 
+## Mapeamento com Graphify
+
+O mapa estrutural do código está em `graphify-out/graph.json`, com visualização
+em `graphify-out/graph.html` e relatório em `graphify-out/GRAPH_REPORT.md`.
+Para atualizar o mapa localmente, com o Graphify instalado:
+
+```bash
+graphify extract . --code-only --no-cluster --no-gitignore
+graphify cluster-only . --no-label
+```
+
+As exclusões estão em `.graphifyignore`. O mapeamento usa análise local de código,
+sem chamadas a modelos de IA; arquivos sem símbolos suportados podem não aparecer.
+
 Landing page responsiva em React, TypeScript, Vite e Tailwind CSS 4.
 
 ## Executar

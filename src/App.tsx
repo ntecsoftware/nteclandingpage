@@ -1,7 +1,8 @@
-import { ArrowRight, Check, ChevronDown, Code2, Database, Layers3, Menu, Network, Quote, ShieldCheck, Target, X } from 'lucide-react'
+import { ArrowRight, Bot, Check, ChevronDown, Code2, Database, Layers3, Menu, Network, Quote, ShieldCheck, Target, X } from 'lucide-react'
 import { useState } from 'react'
 
 const services=[
+  {icon:Bot,title:'Desenvolvimento de Agentes de IA',text:'Agentes inteligentes sob medida para automatizar tarefas, apoiar equipes e integrar processos do seu negócio.'},
   {icon:Code2,title:'Sistemas web sob medida',text:'Operações, portais e plataformas que eliminam gargalos e centralizam processos.'},
   {icon:Layers3,title:'Produtos SaaS',text:'Da validação do MVP à arquitetura multi-tenant pronta para crescer.'},
   {icon:Network,title:'Integrações e APIs',text:'Conectamos ERPs, pagamentos, dados e serviços com segurança.'},
@@ -41,6 +42,6 @@ export function App(){
    <section className="section"><div className="container max-w-4xl"><Heading eyebrow="Perguntas frequentes" title="Antes de começar, vale saber." copy="Respostas diretas para as dúvidas mais comuns."/><div className="grid gap-3">{faqs.map(([q,a],i)=><button className="faq" key={q} onClick={()=>setFaq(faq===i?-1:i)} aria-expanded={faq===i}><span>{q}<ChevronDown className={faq===i?'rotate-180':''}/></span>{faq===i&&<p>{a}</p>}</button>)}</div></div></section>
    <section id="contato" className="cta"><div className="container text-center"><h2>Sua ideia merece uma solução à altura.</h2><p>Conte o desafio. Nós ajudamos a transformar em estratégia, produto e resultado.</p><a className="btn bg-slate-950 text-white hover:bg-slate-800" href="mailto:contato@ntecsoftware.com.br">Agendar conversa estratégica <ArrowRight size={17}/></a></div></section>
   </main>
-  <footer><div className="container"><div className="footer-grid"><div><Logo/><p className="mt-5 max-w-sm text-sm leading-6 text-slate-400">Software sob medida para negócios que querem ir além.</p></div><div><b>Empresa</b><a href="#sobre">Sobre</a><a href="#processo">Processo</a><a href="#projetos">Projetos</a></div><div><b>Soluções</b><a href="#servicos">Sistemas web</a><a href="#servicos">SaaS</a><a href="#servicos">Integrações</a></div><div><b>Contato</b><a href="mailto:nonilton@ntecsoftware.com.br">nonilton@ntecsoftware.com.br</a><span>(99) 99180-6627 Atendimento online • Brasil</span><span>Seg–Sex • 08h às 18h</span></div></div><div className="footer-bottom"><span>© 2026 NtecSoftware. Todos os direitos reservados.</span><div><a href="#">Privacidade</a><a href="#">Termos</a></div></div></div></footer>
+  <footer><div className="container"><div className="footer-grid"><div><Logo/><p className="mt-5 max-w-sm text-sm leading-6 text-slate-400">Software sob medida para negócios que querem ir além.</p></div><div><b>Empresa</b><a href="#sobre">Sobre</a><a href="#processo">Processo</a><a href="#projetos">Projetos</a></div><div><b>Soluções</b><a href="#servicos">Sistemas web</a><a href="#servicos">SaaS</a><a href="#servicos">Integrações</a><a href="#servicos">Agentes de IA</a></div><div><b>Contato</b><a href="mailto:nonilton@ntecsoftware.com.br">nonilton@ntecsoftware.com.br</a><a href="https://wa.me/5599991806627" target="_blank" rel="noopener noreferrer" aria-label="Conversar pelo WhatsApp">(99) 99180-6627</a><span>Atendimento online • Brasil</span><span>Seg–Sex • 08h às 18h</span></div></div><div className="footer-bottom"><span>© 2026 NtecSoftware. Todos os direitos reservados.</span><div><a href="#">Privacidade</a><a href="#">Termos</a></div></div></div></footer>
  </div>
 }
