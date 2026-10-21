@@ -1,4 +1,4 @@
-import { ArrowRight, Bot, Check, ChevronDown, Code2, Database, Layers3, Mail, Menu, Network, Quote, ShieldCheck, Target, X } from 'lucide-react'
+import { ArrowRight, Bot, BriefcaseBusiness, Check, ChevronDown, Code2, Database, Layers3, Mail, Menu, Network, Quote, ShieldCheck, Target, Users, X } from 'lucide-react'
 import { useState } from 'react'
 
 const services=[
@@ -7,6 +7,8 @@ const services=[
   {icon:Layers3,title:'Produtos SaaS',text:'Da validação do MVP à arquitetura multi-tenant pronta para crescer.'},
   {icon:Network,title:'Integrações e APIs',text:'Conectamos ERPs, pagamentos, dados e serviços com segurança.'},
   {icon:Database,title:'Modernização de legados',text:'Evolução gradual de sistemas críticos, sem paralisar a operação.'},
+  {icon:BriefcaseBusiness,title:'Consultoria e modernização em tecnologia da informação',text:'Avaliamos processos e infraestrutura para orientar investimentos, modernizar a TI e alinhar tecnologia aos objetivos do negócio.'},
+  {icon:Users,title:'Outsourcing de TI',text:'Profissionais especializados para complementar sua equipe e apoiar a gestão, a sustentação e a evolução das operações de TI.'},
 ]
 const steps=[['01','Diagnóstico','Entendemos contexto, metas e restrições.'],['02','Estratégia','Definimos escopo, arquitetura e indicadores.'],['03','Design & Build','Prototipamos e entregamos em ciclos curtos.'],['04','Evolução','Medimos, aprendemos e escalamos o produto.']]
 const faqs=[
